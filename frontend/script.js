@@ -243,7 +243,7 @@ function spinReels() {
 }
 
 function startSpinning() {
-    const symbols = ['🍎', '🍌', '🍒', '🍇', '🍋', '🍊', '🍍', '🍉', '🍓', '🥝'];
+    const symbols = ['🍎', '🍌', '🍒', '🍇', '🍋', '🍊', '🍍', '7️⃣', '🍓', '🥝'];
     const reels = document.querySelectorAll('.reel');
 
     spinningInterval = setInterval(() => {
@@ -260,7 +260,7 @@ function stopSpinning(spinResult) {
 }
 
 function updateReels(spinResult) {
-    const symbolMap = {0: '🍎', 1: '🍌', 2: '🍒', 3: '🍇', 4: '🍋', 5: '🍊', 6: '🍍', 7: '🍉', 8: '🍓', 9: '🥝'};
+    const symbolMap = {0: '🍎', 1: '🍌', 2: '🍒', 3: '🍇', 4: '🍋', 5: '🍊', 6: '🍍', 7: '7️⃣', 8: '🍓', 9: '🥝'};
     for (let i = 0; i < spinResult.length; i++) {
         const reelId = `reel${i+1}`;
         const symbol = symbolMap[spinResult[i]];
