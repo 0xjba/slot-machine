@@ -173,7 +173,7 @@ const contractABI = [
             "type": "function"
         }
 ]; 
-const contractAddress = "0x81A72Cb0700eD788c85fA95a011Cd1ee20493402";
+const contractAddress = "0x1953F9c94b3b13564ea3a307D26262Aa8E46beE0";
 
 let contract;
 let userAccount;
